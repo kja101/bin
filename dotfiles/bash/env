@@ -1,3 +1,6 @@
 
 
 # Set PATH, CDPATH, EDITOR, etc.
+#
+[core]
+editor = '/Applications/Visual Studio Code.app/Contents/MacOS/Electron' -w

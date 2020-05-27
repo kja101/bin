@@ -9,16 +9,7 @@
 # Input: Selected Text or Document
 # Output: Replace Selected Text
 # Scope Selector: source.ruby
-
-$tabSize = 2
-$tabStr = " "
-
-# indent regexp tests
-
-$indentExp = [
-  /^module\b/,
-  /^if\b/,
-  /(=\s*|^)until\b/,
+$tabSize = 2 $tabStr = " " # indent regexp tests $indentExp = [ /^module\b/, /^if\b/, /(=\s*|^)until\b/,
   /(=\s*|^)for\b/,
   /^unless\b/,
   /(=\s*|^)while\b/,

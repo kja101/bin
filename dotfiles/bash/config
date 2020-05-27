@@ -42,6 +42,6 @@ BWHITE='\e[47m'
 # Note that the git branch is given a special color
 
 # vcprompt commented out
-# pS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n→ "
+PS1="\n\u:\w \[$EGREEN\]\$(vcprompt)\[$NO_COLOR\] \n→ "
 
 
