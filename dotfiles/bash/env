@@ -2,5 +2,5 @@
 
 # Set PATH, CDPATH, EDITOR, etc.
 #
-[core]
-editor = '/Applications/Visual Studio Code.app/Contents/MacOS/Electron' -w
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+export VISUAL=open\ -n\ -b\ "com.microsoft.VSCode"

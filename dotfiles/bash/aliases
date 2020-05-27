@@ -114,6 +114,9 @@ function new-git() {
 # Emacs
 alias em="open -a Emacs"
 alias emm="open -a Emacs ."
+
+
+
 # Regenerate TAGS file from file arguments
 function ct() {
   rm -f TAGS
